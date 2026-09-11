@@ -10,7 +10,7 @@ export default function StackItem({
   onRemove,
 }: StackItemProps) {
   return (
-    <div className="flex items-center justify-between rounded-lg border border-gray-200 p-3">
+    <div className="flex items-center justify-between rounded-lg border border-gray-200 p-3 transition hover:border-pink-300 hover:shadow-sm">
       <div className="flex items-center gap-3">
         <img
           src={technology.icon}
