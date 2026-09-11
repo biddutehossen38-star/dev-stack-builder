@@ -26,21 +26,21 @@ function Footer() {
           <div className="mt-5 flex gap-4">
             <a
               href="#"
-              className="text-xl text-slate-500 transition hover:text-pink-600"
+              className="text-xl text-slate-500 transition hover:scale-110 hover:text-pink-600"
             >
               <FaGithub />
             </a>
 
             <a
               href="#"
-              className="text-xl text-slate-500 transition hover:text-pink-600"
+              className="text-xl text-slate-500 transition hover:scale-110 hover:text-pink-600"
             >
               <FaTwitter />
             </a>
 
             <a
               href="#"
-              className="text-xl text-slate-500 transition hover:text-pink-600"
+              className="text-xl text-slate-500 transition hover:scale-110 hover:text-pink-600"
             >
               <FaLinkedin />
             </a>
