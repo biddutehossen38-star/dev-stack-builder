@@ -5,26 +5,27 @@ function Navbar() {
     <nav className="sticky top-0 z-50 bg-white/95 shadow-sm backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4">
 
-
+        {/* Mobile Menu Button */}
         <button className="text-2xl lg:hidden">
           ☰
         </button>
 
-
+        {/* Logo */}
         <div className="flex items-center gap-2">
           <img
             src={Logo}
             alt="Dev Stack Logo"
-            className=""
+            className="h-10"
           />
-
-
         </div>
 
-
+        {/* Desktop Menu */}
         <ul className="hidden items-center gap-8 lg:flex">
           <li>
-            <a href="#home" className="font-medium text-slate-600 hover:text-pink-500">
+            <a
+              href="#home"
+              className="font-medium text-slate-600 hover:text-pink-500"
+            >
               Home
             </a>
           </li>
@@ -39,31 +40,40 @@ function Navbar() {
           </li>
 
           <li>
-            <a href="#projects" className="font-medium text-slate-600 hover:text-pink-500">
+            <a
+              href="#projects"
+              className="font-medium text-slate-600 hover:text-pink-500"
+            >
               Projects
             </a>
           </li>
 
           <li>
-            <a href="#about" className="font-medium text-slate-600 hover:text-pink-500">
+            <a
+              href="#about"
+              className="font-medium text-slate-600 hover:text-pink-500"
+            >
               About
             </a>
           </li>
 
           <li>
-            <a href="#contact" className="font-medium text-slate-600 hover:text-pink-500">
+            <a
+              href="#contact"
+              className="font-medium text-slate-600 hover:text-pink-500"
+            >
               Contact
             </a>
           </li>
         </ul>
 
-
-        <div className="flex items-center text-slate-600 gap-2">
+        {/* Buttons */}
+        <div className="flex items-center gap-2 text-slate-600">
           <button className="hidden font-medium sm:block">
             Sign In
           </button>
 
-          <button className="rounded-full bg-pink-600  px-5 py-2 font-medium text-white">
+          <button className="brand-gradient rounded-full px-5 py-2 font-medium text-white">
             Sign Up
           </button>
         </div>
@@ -71,6 +81,6 @@ function Navbar() {
       </div>
     </nav>
   );
-};
+}
 
 export default Navbar;
